@@ -1,0 +1,24 @@
+{
+  "app": {
+    "name": "Weather App",
+    "version": "1.0.0"
+  },
+  "weather": {
+    "title": "Weather Forecast",
+    "search_hint": "Search for city...",
+    "humidity": "Humidity",
+    "wind": "Wind Speed",
+    "forecast": "Forecast",
+    "settings": "Settings",
+    "theme_mode": "Theme Mode",
+    "language": "Language"
+  },
+  "common": {
+    "toast": {
+      "success": "Success",
+      "error": "Error",
+      "warning": "Warning",
+      "info": "Info"
+    }
+  }
+}

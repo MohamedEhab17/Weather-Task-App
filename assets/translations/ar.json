@@ -1,0 +1,24 @@
+{
+  "app": {
+    "name": "تطبيق الطقس",
+    "version": "1.0.0"
+  },
+  "weather": {
+    "title": "توقعات الطقس",
+    "search_hint": "ابحث عن مدينة...",
+    "humidity": "الرطوبة",
+    "wind": "سرعة الرياح",
+    "forecast": "التوقعات",
+    "settings": "الإعدادات",
+    "theme_mode": "وضع المظهر",
+    "language": "اللغة"
+  },
+  "common": {
+    "toast": {
+      "success": "نجاح",
+      "error": "خطأ",
+      "warning": "تحذير",
+      "info": "معلومة"
+    }
+  }
+}
