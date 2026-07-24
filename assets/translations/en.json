@@ -44,7 +44,7 @@
     "daily_details": "Daily Details",
     "nav_home": "Dashboard",
     "nav_search": "Search",
-    "settings_subtitle": "Customize your sky experience",
+    "settings_subtitle": "Customize your weather experience",
     "section_units": "UNITS & FORMATTING",
     "section_preferences": "PREFERENCES",
     "version": "Version 2.4.0 (Stable)",
@@ -53,7 +53,7 @@
     "cancel": "Cancel",
     "delete": "Delete",
     "removed_toast": "{city} removed",
-    "company_bio": "Designed with precision by\nAtmosphere Labs Collective"
+    "company_bio": "Designed & built by\nMohamed Ehab"
   },
   "common": {
     "toast": {

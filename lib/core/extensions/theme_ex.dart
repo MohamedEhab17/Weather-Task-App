@@ -15,6 +15,7 @@ extension TextStyleArabicEx on TextStyle {
       return copyWith(
         fontFamily: null,
         height: 1.4,
+        letterSpacing: 0,
       );
     }
     return this;

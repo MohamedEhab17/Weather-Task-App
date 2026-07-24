@@ -9,6 +9,6 @@ extension LocalizationExtension on BuildContext {
     List<String>? args,
     Map<String, String>? namedArgs,
   }) {
-    return tr(key, args: args, namedArgs: namedArgs);
+    return key.tr(context: this, args: args, namedArgs: namedArgs);
   }
 }

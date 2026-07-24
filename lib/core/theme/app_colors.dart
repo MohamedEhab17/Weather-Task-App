@@ -52,7 +52,7 @@ class AppColors {
     required this.greyExtraLight,
   });
 
-  ///  SkyGlass Light Theme Colors 
+  ///  Weather Task App - Light Theme Colors 
   static const AppColors light = AppColors(
     primary: Color(0xFF0F52BA),          // Royal Blue
     primaryDark: Color(0xFF002D62),      // Deep Navy
@@ -75,7 +75,7 @@ class AppColors {
     greyExtraLight: Color(0xFFE0E0E0),
   );
 
-  ///  SkyGlass Dark Theme Colors
+  ///  Weather Task App - Dark Theme Colors
   static const AppColors dark = AppColors(
     primary: Color(0xFF5CA4FF),          // Soft light blue for contrast
     primaryDark: Color(0xFF00449E),

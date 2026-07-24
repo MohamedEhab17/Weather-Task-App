@@ -15,7 +15,8 @@ class SearchLocalDataSourceImpl implements SearchLocalDataSource {
 
   @override
   List<String> getFavorites() {
-    return sharedPreferences.getStringList(_favKey) ?? ['Cairo', 'London', 'Tokyo'];
+    return sharedPreferences.getStringList(_favKey) ??
+        ['Cairo', 'Los Angeles', 'Salmiya', 'Moscow'];
   }
 
   @override
