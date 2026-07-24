@@ -28,10 +28,17 @@ class ErrorHandler {
       case DioExceptionType.badResponse:
         final response = error.response;
         if (response != null && response.data != null) {
-          // Check if it matches our AuthResponseModel structure
           final data = response.data;
-          if (data is Map<String, dynamic> && data.containsKey('message')) {
-            return ServerFailure(data['message']);
+          if (data is Map<String, dynamic>) {
+            if (data.containsKey('message')) {
+              return ServerFailure(data['message']);
+            }
+            if (data.containsKey('error')) {
+              final err = data['error'];
+              if (err is Map<String, dynamic> && err.containsKey('message')) {
+                return ServerFailure(err['message']);
+              }
+            }
           }
         }
         return ServerFailure('Received invalid status code: ${response?.statusCode}');

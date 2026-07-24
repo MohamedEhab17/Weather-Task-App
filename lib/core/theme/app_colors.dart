@@ -63,7 +63,7 @@ class AppColors {
     cardBackground: Color(0xB3FFFFFF),   // Glassmorphic card (White with 70% opacity)
     cardBorder: Color(0x33FFFFFF),       // Card border with 20% opacity
     textPrimary: Color(0xFF002244),      // Dark navy blue text
-    textSecondary: Color(0xFF4A607A),    // Medium slate blue text
+    textSecondary: Color(0xFF203A54),    // Darker slate blue for high readability in light mode
     textLight: Color(0xFFFFFFFF),        // White text
     success: Color(0xFF31B042),
     error: Color(0xFFD63B3B),
@@ -86,7 +86,7 @@ class AppColors {
     cardBackground: Color(0x1FFFFFFF),   // Dark glassmorphic card (White with 12% opacity)
     cardBorder: Color(0x1FBDC9D8),       // Glassmorphic border with 12% opacity
     textPrimary: Color(0xFFF1F5F9),      // Light white-grey text
-    textSecondary: Color(0xFF94A3B8),    // Slate grey text
+    textSecondary: Color(0xFFE2E8F0),    // Brighter silver grey for high contrast readability in dark mode
     textLight: Color(0xFFFFFFFF),
     success: Color(0xFF4ADE80),
     error: Color(0xFFF87171),
