@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="screenshots/1.jpg" alt="Weather Task App Banner" width="100%"/>
+<img src="screenshots/1.jpg?v=2" alt="Weather Task App Banner" width="100%"/>
 
 <br/>
 
@@ -37,24 +37,24 @@
 <table>
   <tr>
     <td align="center" width="50%">
-      <img src="screenshots/1.jpg" alt="Splash Screen" width="100%"/>
+      <img src="screenshots/1.jpg?v=2" alt="Splash Screen" width="100%"/>
       <br/>
       <sub><b>🌟 Splash Screen</b></sub>
     </td>
     <td align="center" width="50%">
-      <img src="screenshots/2.jpg" alt="Multi-City Dashboard" width="100%"/>
+      <img src="screenshots/2.jpg?v=2" alt="Multi-City Dashboard" width="100%"/>
       <br/>
       <sub><b>🏙️ Multi-City Tracking</b></sub>
     </td>
   </tr>
   <tr>
     <td align="center" width="50%">
-      <img src="screenshots/3.jpg" alt="Home Screen Widget" width="100%"/>
+      <img src="screenshots/3.jpg?v=2" alt="Home Screen Widget" width="100%"/>
       <br/>
       <sub><b>📱 Live Home Screen Widget</b></sub>
     </td>
     <td align="center" width="50%">
-      <img src="screenshots/4.jpg" alt="Full App Design" width="100%"/>
+      <img src="screenshots/4.jpg?v=2" alt="Full App Design" width="100%"/>
       <br/>
       <sub><b>🎨 Full UI Design Overview</b></sub>
     </td>
@@ -339,27 +339,13 @@ All API calls go through a centralized **Dio client** with:
 
 ---
 
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome!
-
-1. Fork the repo
-2. Create your feature branch: `git checkout -b feature/amazing-feature`
-3. Commit your changes: `git commit -m 'feat: add amazing feature'`
-4. Push to the branch: `git push origin feature/amazing-feature`
-5. Open a Pull Request
-
----
-
 ## 📄 License
 
-This project is for educational and demonstration purposes.
+This project is proprietary. All rights reserved.
 
 ---
 
 <div align="center">
-
-**Built with ❤️ using Flutter**
 
 *Clean Architecture · BLoC · GoRouter · WorkManager · Easy Localization*
 
